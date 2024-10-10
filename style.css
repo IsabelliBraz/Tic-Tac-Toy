@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.jogo {
+.board {
   display: grid;
   grid-template-columns: auto auto auto;
 }
