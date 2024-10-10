@@ -53,9 +53,9 @@
 }
 
 .jogador-1 {
-  color: red;
+  color: hsl(113, 94%, 26%);
 }
 
 .jogador-2 {
-  color: blue;
+  color: #fffb00;
 }
