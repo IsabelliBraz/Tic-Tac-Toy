@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.jogo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.quadrado {
+  height: calc(100vh / 4);
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10em;
+}
+
+.quadrado-1 {
+  border-top: none;
+  border-left: none;
+}
+
+.quadrado-2 {
+  border-top: none;
+}
+
+.quadrado-3 {
+  border-top: none;
+  border-right: none;
+}
+
+.quadrado-4 {
+  border-left: none;
+}
+
+.quadrado-6 {
+  border-right: none;
+}
+
+.quadrado-7 {
+  border-left: none;
+  border-bottom: none;
+}
+
+.quadrado-8 {
+  border-bottom: none;
+}
+
+.quadrado-9 {
+  border-right: none;
+  border-bottom: none;
+}
+
+.jogador-1 {
+  color: red;
+}
+
+.jogador-2 {
+  color: blue;
+}
